@@ -1,0 +1,33 @@
+
+
+
+.mynav {
+    width: 100%;
+    background: rgb(23, 111, 206) !important;
+
+    border-radius: 20px solid rgb(46, 147, 190) !important;
+}
+body{
+    background-image: url(/image/1.jpg.webp) ;
+    background-size: cover;
+    margin: 0;
+
+}
+.btn, .btn-outline-success{
+    height: 40px;
+    width: 150px;
+    padding: 3px;
+    margin-left: 1rem;
+    color: white;
+    border: 1px solid white;
+}
+.nav-link:hover, .active:hover{
+font: 1em sans-serif;
+color: rgb(70, 14, 119);
+}
+.div img{
+    width: 25px;
+    height:25px;
+    border-radius: 19px solid white;
+}
+
