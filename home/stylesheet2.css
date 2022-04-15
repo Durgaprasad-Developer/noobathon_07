@@ -1,0 +1,23 @@
+
+.s1{
+    background-color: rgb(12, 40, 79); 
+}.s1 h1{
+    color: rgb(207, 103, 12); 
+}
+body{
+background-image: url("/image/WhatsApp\ Image\ 2022-04-15\ at\ 12.08.38\ AM.jpeg") ;
+}
+.q{height: 100%;display: flex;width: 30%;float: left;margin: 20px 20px;flex-direction: column; margin-top: 20px;
+    
+}.d{height: 100%;display: flex;width: 30%;float: left;margin: 20px 20px;flex-direction: column; margin-top: 20px;}.a{
+    height: 100%;display: flex;width: 30%;float: left;margin: 20px 20px;flex-direction: column; margin-top: 20px;
+}
+div img{
+    margin: 40px 50px; border-radius: 20px solid white;box-sizing: border-box;
+
+    
+
+}
+h2{
+    color: rgb(243, 53, 10); align-items: center;
+}
