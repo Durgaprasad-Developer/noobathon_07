@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(/image/4556788.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {width: 71% ;
+    margin-left: 10px;
+    color: peachpuff;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+}
+
+.container h1 {
+    font-family: 'Heebo', sans-serif;
+    width: 48%;
+    display: block;
+    font-size: 35px;
+    border-bottom: 5px solid rgb(36, 150, 206);
+    margin-bottom: 5px;
+    padding: 9px 9px;
+    margin-left: 15px;
+}
+
+.box {
+    width: 44%;
+    margin: 15px 15px;
+    border-bottom: 2px solid rgb(36, 150, 206);
+}
+
+.box input {
+    background: none;
+    width: 40%;
+    padding: 5px 10px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.btn {
+    color: white;
+    cursor: pointer;
+    outline: peachpuff;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid rgb(36, 150, 206);
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+
+}
+.box i{ 
+    width: 18px; 
+    text-align: center;
+}
+.btn:hover{
+    opacity: 0.5;
+    color: purple; 
+    background: white; 
+    
+}
+div img{
+    width: 50%; height: 50%;margin-top: 110px; margin-left: 15px;
+    
+}
