@@ -1,90 +1,55 @@
-*,*::before,*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', 'sans-serif';
-}
-
-.wrapper{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(./assets/gradient-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    display: grid;
-    place-items: center;
-}
-
-.game-info{
-    color:white;
-    position:absolute;
-    top:3rem;
-    left:50%;
-    transform:translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.15);
-    border-radius: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    padding: 0.5rem 3rem;
-    /* text-align:center; */
-
-}
-
-.tic-tac-toe{
-    width:90%;
-    max-width:20rem;
-    background-color: rgba(255, 255, 255, 0.15);
-    border-radius: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    aspect-ratio: 1/1;
-}
-
-
-.box{
-    position:relative;
-    width:100%;
-    aspect-ratio: 1/1;
-    cursor: pointer;
-    font-size: 3rem;
-    color:white;
+body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
 }
 
-.box1, .box2, .box4, .box5{
-    border-right:2px solid white;
-    border-bottom:2px solid white;
+.wrapper {
+    text-align: center;
 }
 
-.box3, .box6{
-    border-bottom: 2px solid white;
+.tic-tac-toe {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
 }
 
-.box7, .box8{
-    border-right:2px solid white;
-}
-
-.btn{
-    color:white;
-    position: absolute;
-    bottom:3rem;
-    left:50%;
-    transform:translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.15);
-    border-radius: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    padding: 0.5rem 2rem;
-    cursor:pointer;
-    display: none;
-}
-
-.btn.active{
+.box {
+    width: 100px;
+    height: 100px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    cursor: pointer;
 }
 
-.win{
-    background-color: rgba(0, 255, 0, 0.3);
+.box:hover {
+    background-color: #f9f9f9;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+.game-info {
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
